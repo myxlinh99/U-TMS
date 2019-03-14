@@ -6,32 +6,56 @@
                 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                <link rel="stylesheet" href="../build/index.css">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
+                <div class="container">
+                        <header>
+                                <h1>U-TMS</h1>
+                                <h3>Usable Web Term Master Schedule</h3>
+                        </header>
 
-                <header>
-                        <h1>U-TMS</h1>
-                        <h3>Usable Web Term Master Schedule</h3>
-                </header>
-
-                <section>
-                        <div class="container">
+                        <section>
                                 <form>
                                         <div class="form-group">
-
+                                                <label>What's your personality?</label>
+                                                <div class="form-check">
+                                                        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                                Early Bird
+                                                        </label>
+                                                </div>
+                                                <div class="form-check">
+                                                        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                                Night Owl
+                                                        </label>
+                                                </div>
+                                                <div class="form-check">
+                                                        <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                                                        <label class="form-check-label" for="exampleRadios1">
+                                                                Always Sleepy Sloth
+                                                        </label>
+                                                </div>
                                         </div>
                                 </form>
 
                                 <canvas> </canvas>
-                
-                                <div></div>
-                        </div>
-                </section>
+                                
+                                <p>
+                                        List of CRNs
+                                </p>
+                                
+                                <div>
 
-                <footer>
-                        <h2>Made for CS270</h2>
-                </footer>
-                
-     </body>
+                                </div>
+                        
+                        </section>
+
+                        <footer>
+                                <h2>Made for CS270</h2>
+                        </footer>
+                </div>
+       </body>
 </html>
